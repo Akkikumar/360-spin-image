@@ -12,9 +12,8 @@ const App = () => {
   const [completeUrl, setCompleteUrl] = useState(imgsrc + range + imgscrExt);
   const rangeRef = useRef('0');
 
-  const work = () => {
-    console.log(rangeRef.current.value);
-    setRange(document.getElementById('range').value);
+  const work = () => {    
+    setRange(rangeRef.current.value);
     setCompleteUrl(imgsrc + range + imgscrExt);
   };
 
