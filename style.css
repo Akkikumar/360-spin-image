@@ -1,7 +1,6 @@
 html,
-
-.container{  
-  width: 400px;  
+.container {
+  width: 400px;
   margin: 0 auto;
 }
 #main {
@@ -18,5 +17,6 @@ html,
   width: 100%;
   top: 5%;
   height: 200px;
-  opacity: 0;    
+  opacity: 0;
+  cursor: grabbing;
 }
