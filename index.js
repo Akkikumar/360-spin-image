@@ -28,7 +28,7 @@ const App = () => {
           id="range"
           value="1"
           min="1"
-          max="36"
+          max="42"
         />
         <img src={completeUrl} />
       </div>
